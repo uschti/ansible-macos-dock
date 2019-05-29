@@ -17,7 +17,7 @@ galaxy_info:
     - config
     - ui
 dependencies:
-  - { role: feffi.macos-homebrew,
+  - { role: uschti.macos-homebrew,
       macos_homebrew: {
         packages: [
           { name: "dockutil" }
