@@ -12,6 +12,7 @@
         - { domain: "com.apple.dock", key: "minimize-to-application", type: "boolean", value: "{{ macos_dock.settings.minimize_to_application }}", description: "Minimize windows into their application’s icon" }
         - { domain: "com.apple.dock", key: "mouse-over-hilite-stack", type: "boolean", value: "{{ macos_dock.settings.mouse_over_hilite_stack }}", description: "Enable highlight hover effect for the grid view of a stack (Dock)" }
         - { domain: "com.apple.dock", key: "mru-spaces", type: "boolean", value: "{{ macos_dock.settings.rearrange_spaces }}", description: "Don’t automatically rearrange Spaces based on most recent use" }
+        - { domain: "com.apple.dock", key: "show-recents", type: "boolean", value: "{{ macos_dock.settings.show_recents }}", description: "Don’t automatically show recent Apps in Dock" }
         - { domain: "com.apple.dock", key: "show-process-indicators", type: "boolean", value: "{{ macos_dock.settings.process_indicators }}", description: "Show indicator lights for open applications in the Dock" }
         - { domain: "com.apple.dock", key: "showhidden", type: "boolean", value: "{{ macos_dock.settings.show_hidden }}", description: "Don't make Dock icons of hidden applications translucent" }
         - { domain: "com.apple.dock", key: "tilesize", type: "integer", value: "{{ macos_dock.settings.tile_size }}", description: "Set the icon size of Dock items to 36 pixels" }
